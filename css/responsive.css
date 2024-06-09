@@ -74,6 +74,8 @@
 .service_item p {
 	font-size: 12px;
 }
+/* Service part end here  */
+/* explore part end here  */
 .explore_item {
 	width: 100%;
 	padding: 10px;
@@ -87,26 +89,168 @@
 	line-height: 22.26px;
 	width: 259px;
 }
-/* .explore_part {
-	position: static;
-} */
-/* .explore_image {
-	position: static;
-	top: 53px;
-	right: 0;
-    display: block;
-} */
+.explore_image {
+	top: 608px;
+}
 .explore_image img {
 	width: 100%;
+}
+/* explore part end here  */
+/* testimonial part start here  */
+.testimonial {
+	margin-top: 500px;
+	padding: 60px 0;
+}
+.textimonial_items {
+	width: 293px;
+	height: 283px;
+}
+.testimonial_item_text {
+	padding-top: 24px;
+	padding-left: 17%;
+}
+.testimonial_item_name h3 {
+	font-size: 14px;
+	line-height: 3.26px;
+}
+.testimonial_item_name h6 {
+	font-size: 10px;
+	line-height: 12.26px;
+	padding-top: 7px;
+}
+.testimonial_item_name img{
+	display: none;
+}
+.textimonial_items_back {
+	top: 16%;
+	left: 21%;
+	width: 224px;
+	height: 238px;
+}
+.testimonial_item_text p {
+	font-size: 12px;
+	line-height: 15.26px;
+	font-style: italic;
+	padding-top: 2px;
+}
+.textimonial_item_img {
+	left: -5%;
+	width: 90px;
+	height: 90px;
+}
+.textimonial_item_img_circle {
+	width: 75px;
+	height: 75px;
 }
 .explore {
 	padding: 40px 0 135px 0;
 }
-/* .explore_image {
-	top: 835px;
-} */
-/* Service part end here  */
-/* Service part end here  */
+.testimonial_head h2 {
+	font-size: 27px;
+	line-height: 29.26px;
+}
+/* testimonial part end here  */
+/* Adventurer part start here  */
+.adventure {
+	padding: 60px 0;
+}
+.adventure_part h3 {
+	font-size: 17px;
+	line-height: 24.26px;
+}
+.adventure_part p {
+	font-size: 12px;
+	padding: 10px 0;
+}
+.date {
+	right: 70px;
+}
+.adventure_item h3 {
+	font-size: 18px;
+	line-height: 25.26px;
+	padding-top: 25px;
+	padding-bottom: 0px;
+}
+.adventure_last_btn a {
+	margin-top: 0;
+}
+/* Adventurer part end here  */
+/* connect part start here  */
+.connect{
+	padding: 60px 0;
+}
+.connect_part h2 {
+	font-size: 28px;
+	line-height: 33.26px;
+	margin-top: 0;
+}
+.connect_part p {
+	font-size: 13px;
+	line-height: 18.26px;
+	padding-top: 32px;
+}
+.top_btn a {
+	margin-bottom: 20px;
+}
+.form {
+	width: 320px;
+	top: -20;
+	left: 50%;
+	padding: 20px 20px;
+	height: 628px;
+	transform: translate(-50%);
+}
+.form_img {
+	display: none;
+}
+.form h3 {
+	font-size: 23px;
+	line-height: 28.26px;
+}
+/* connect part end here  */
+/* highlisht part start here  */
+.highlisht{
+	margin-top: 480px;
+}
+.highlisht_part h3 {
+	font-weight: 500;
+	font-size: 19px;
+	line-height: 28.26px;
+}
+.highlisht_part p {
+	font-size: 16px;
+	line-height: 20.26px;
+	margin-top: 0px;
+	padding-left: 3px;
+}
+.highlight_video {
+	width: 100%;
+}
+/* highlisht part end here  */
+/* clients part start here  */
+.clients {
+	padding: 60px 0;
+}
+.clients_text h2 {
+	font-size: 24px;
+	line-height: 32.26px;
+}
+.clients_text p {
+	font-size: 14px;
+	line-height: 22.26px;
+}
+.client_items_part {
+	flex-direction: column;
+}
+.client_item {
+	margin: 10px 0;
+}
+.footer_second h3 {
+	padding-bottom: 5px;
+	margin-top: 40px;
+}
+/* clients part end here  */
+	
 /* ======================  Blog page start here ================================== */
 .blog_viktor{
 	display: none;
@@ -160,7 +304,7 @@
 
 
 /*  small device  */
-@media (max-width: 767.98px){
+@media (min-width:576px) and (max-width: 767.98px){
 /* Navbar part start here  */
 .top_header_left{
     display: block;
@@ -198,6 +342,207 @@
 	font-size: 11px;
 }
 /* Navbar part end here  */
+/* Bannar  part start here  */
+.banner_overlay{
+	padding: 100px 0;
+}
+.banner_text h1 {
+	font-weight: 500;
+	font-size: 54px;
+	line-height: 51.26px;
+}
+.banner_text p {
+	font-size: 16px;
+	line-height: 21.8px;
+	width: 400px;
+	padding-top: 10px;
+}
+.round_btn {
+	width: 35px;
+	height: 35px;
+	margin-top: 19px;
+}
+.round_btn a {
+	margin-top: 8px;
+}
+/* Bannar part end here  */
+/* servicess part end here  */
+.servicess {
+	padding: 60px 0;
+}
+/* servicess part end here  */
+/* explore part start here  */
+.explore{
+	padding: 60px 0;
+}
+.explore_item {
+	width: 100%;
+	padding: 10px;
+}
+.explore_text h2 {
+	font-size: 32px;
+	line-height: 57.26px;
+}
+.explore_text p {
+	font-size: 12px;
+	line-height: 22.26px;
+	width: 259px;
+}
+.explore_image {
+	top: 608px;
+}
+.explore_image img {
+	width: 100%;
+}
+/* explore part end here  */
+/* testimonial part start here  */
+.testimonial {
+	margin-top: 500px;
+	padding: 60px 0;
+}
+.textimonial_items {
+	width: 501px;
+	height: 283px;
+}
+.testimonial_item_text {
+	padding-top: 24px;
+	padding-left: 17%;
+}
+.testimonial_item_name h3 {
+	font-size: 14px;
+	line-height: 3.26px;
+}
+.testimonial_item_name h6 {
+	font-size: 10px;
+	line-height: 12.26px;
+	padding-top: 7px;
+}
+.testimonial_item_name img{
+	display: none;
+}
+.textimonial_items_back {
+	top: 16%;
+	left: 21%;
+	width: 352px;
+	height: 238px;
+}
+.testimonial_item_text p {
+	font-size: 12px;
+	line-height: 15.26px;
+	font-style: italic;
+	padding-top: 22px;
+}
+.textimonial_item_img {
+	left: -5%;
+	width: 90px;
+	height: 90px;
+}
+.textimonial_item_img_circle {
+	width: 75px;
+	height: 75px;
+}
+
+.testimonial_head h2 {
+	font-size: 27px;
+	line-height: 29.26px;
+}
+/* testimonial part end here  */
+/* adventure part start here  */
+.adventure{
+	padding: 60px 0;
+}
+.adventure_item h3::after {
+	width: 512px;
+	top: 50px;
+}
+.adventure_item h3 {
+	font-size: 18px;
+	line-height: 36.26px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.adventure_part h3 {
+	font-size: 32px;
+	line-height: 41.26px;
+}
+/* adventure part end here  */
+/* connect part end here  */
+.connect{
+	padding: 60px 0;
+}
+
+.connect_part h2 {
+	font-size: 28px;
+	line-height: 33.26px;
+	margin-top: 0;
+}
+.connect_part p {
+	font-size: 13px;
+	line-height: 18.26px;
+	padding-top: 32px;
+}
+.top_btn a {
+	margin-bottom: 20px;
+}
+.form {
+	width: 580px;
+	top: -20;
+	left: 50%;
+	padding: 20px 20px;
+	height: 628px;
+	transform: translate(-50%);
+}
+.form_img {
+	display: none;
+}
+.form h3 {
+	font-size: 23px;
+	line-height: 28.26px;
+}
+/* connect part end here  */
+/* highlisht part start here  */
+
+.highlisht{
+	margin-top: 480px;
+}
+.highlisht_part h3 {
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 28.26px;
+}
+.highlisht_part p {
+	font-size: 14px;
+	line-height: 20.26px;
+	margin-top: 0px;
+	padding-left: 3px;
+}
+.highlight_video {
+	width: 100%;
+}
+/* highlisht part end here  */
+/* clients part start here  */
+.clients {
+	padding: 60px 0;
+}
+.clients_text h2 {
+	font-size: 24px;
+	line-height: 32.26px;
+}
+.clients_text p {
+	font-size: 14px;
+	line-height: 22.26px;
+}
+.client_items_part {
+	flex-direction: row;
+}
+.client_item {
+	margin: 10px 0;
+}
+.footer_second h3 {
+	padding-bottom: 5px;
+	margin-top: 40px;
+}
+/* clients part end here  */
 /* Registration part end here  */
 .registration_part h3::after {
 	display: none;
@@ -246,7 +591,213 @@
 
 
 /* --------------------  Medium devices ---------------------- */
-@media (max-width: 991.98px){
+@media (min-width:768px)  and (max-width: 991.98px){
+	/* Banner start here  */
+	/* Bannar  part start here  */
+	.banner_overlay{
+		padding: 100px 0;
+	}
+	.banner_text h1 {
+		font-weight: 500;
+		font-size: 54px;
+		line-height: 51.26px;
+	}
+	.banner_text p {
+		font-size: 16px;
+		line-height: 21.8px;
+		width: 400px;
+		padding-top: 10px;
+	}
+	.round_btn {
+		width: 35px;
+		height: 35px;
+		margin-top: 19px;
+	}
+	.round_btn a {
+		margin-top: 8px;
+	}
+/* Bannar part end here  */
+ /* explore part start here  */
+ .explore{
+	padding: 60px 0;
+}
+.explore_item {
+	width: 100%;
+	padding: 10px;
+}
+.explore_text h2 {
+	font-size: 32px;
+	line-height: 57.26px;
+}
+.explore_text p {
+	font-size: 12px;
+	line-height: 22.26px;
+	width: 259px;
+}
+.explore_image {
+	top: 608px;
+	right: 35px;
+}
+.explore_image img {
+	width: 100%;
+}
+
+/* explore part end here  */
+   /* testimonial part start here  */
+   .testimonial {
+	margin-top: 600px;
+	padding: 60px 0;
+}
+.textimonial_items {
+	width: 691px;
+	height: 283px;
+}
+.testimonial_item_text {
+	padding-top: 24px;
+	padding-left: 17%;
+}
+.testimonial_item_name h3 {
+	font-size: 14px;
+	line-height: 3.26px;
+}
+.testimonial_item_name h6 {
+	font-size: 10px;
+	line-height: 12.26px;
+	padding-top: 7px;
+}
+.testimonial_item_name img{
+	display: none;
+}
+.textimonial_items_back {
+	top: 16%;
+	left: 21%;
+	width: 431px;
+	height: 238px;
+}
+.testimonial_item_text p {
+	font-size: 12px;
+	line-height: 15.26px;
+	font-style: italic;
+	padding-top: 22px;
+}
+.textimonial_item_img {
+	left: -5%;
+	width: 90px;
+	height: 90px;
+}
+.textimonial_item_img_circle {
+	width: 75px;
+	height: 75px;
+}
+
+.testimonial_head h2 {
+	font-size: 27px;
+	line-height: 29.26px;
+}
+/* testimonial part end here  */
+  /* adventure part start here  */
+  .adventure{
+	padding: 60px 0;
+}
+.adventure_item h3::after {
+	width: 512px;
+	top: 50px;
+}
+.adventure_item h3 {
+	font-size: 18px;
+	line-height: 36.26px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.adventure_part h3 {
+	font-size: 32px;
+	line-height: 41.26px;
+}
+.adventure_item_text {
+	padding-left: 7px;
+}
+.adventure_item h3::after {
+	width: 342px;
+}
+/* adventure part end here  */
+  /* connect part end here  */
+  .connect{
+	padding: 60px 0;
+}
+
+.connect_part h2 {
+	font-size: 28px;
+	line-height: 33.26px;
+	margin-top: 0;
+}
+.connect_part p {
+	font-size: 13px;
+	line-height: 18.26px;
+	padding-top: 32px;
+}
+.top_btn a {
+	margin-bottom: 20px;
+}
+.form {
+	width: 670px;
+	top: -20;
+	left: 50%;
+	padding: 20px 20px;
+	height: 628px;
+	transform: translate(-50%);
+}
+.form_img {
+	display: none;
+}
+.form h3 {
+	font-size: 23px;
+	line-height: 28.26px;
+}
+/* connect part end here  */
+ /* highlisht part start here  */
+    
+ .highlisht{
+	margin-top: 480px;
+}
+.highlisht_part h3 {
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 28.26px;
+}
+.highlisht_part p {
+	font-size: 14px;
+	line-height: 20.26px;
+	margin-top: 0px;
+	padding-left: 3px;
+}
+.highlight_video {
+	width: 100%;
+}
+/* highlisht part end here  */
+/* clients part start here  */
+.clients {
+	padding: 60px 0;
+}
+.clients_text h2 {
+	font-size: 40px;
+	line-height: 45.26px;
+}
+.clients_text p {
+	font-size: 14px;
+	line-height: 22.26px;
+}
+.client_items_part {
+	flex-direction: row;
+}
+.client_item {
+	margin: 10px 0;
+}
+.footer_second h3 {
+	padding-bottom: 5px;
+	margin-top: 40px;
+}
+/* clients part end here  */
+	
 	.jobs button{
 		padding: 0;
 	}
@@ -284,7 +835,7 @@
 }
 /* --------------------  Medium devices ---------------------- */
 /* --------------------  Large devices  ---------------------- */
-@media (max-width: 1199.98px) {
+@media (min-width:992px) and (max-width: 1199.98px) {
    /* navbar start here  */
 	.top_btn a {
 		padding: 9px 12px;
@@ -317,6 +868,210 @@
 		font-size: 13px;
 	}
 	/* Registration part start here  */
+	 /* Bannar  part start here  */
+	 .banner_overlay{
+		padding: 100px 0;
+	}
+	.banner_text h1 {
+		font-weight: 500;
+		font-size: 54px;
+		line-height: 51.26px;
+	}
+	.banner_text p {
+		font-size: 16px;
+		line-height: 21.8px;
+		width: 400px;
+		padding-top: 10px;
+	}
+	.round_btn {
+		width: 35px;
+		height: 35px;
+		margin-top: 19px;
+	}
+	.round_btn a {
+		margin-top: 8px;
+	}
+/* Bannar part end here  */
+  /* explore part start here  */
+	.explore{
+		padding: 60px 0;
+	}
+	.explore_item {
+		width: 100%;
+		padding: 10px;
+	}
+	.explore_text h2 {
+		font-size: 32px;
+		line-height: 57.26px;
+	}
+	.explore_text p {
+		font-size: 12px;
+		line-height: 22.26px;
+		width: 259px;
+	}
+	.explore_image {
+		top: 608px;
+		right: 35px;
+	}
+	.explore_image img {
+		width: 100%;
+	}
+
+/* explore part end here  */
+/* testimonial part start here  */
+.testimonial {
+	margin-top: 600px;
+	padding: 60px 0;
+}
+.textimonial_items {
+	width: 425px;
+	height: 283px;
+}
+.testimonial_item_text {
+	padding-top: 24px;
+	padding-left: 17%;
+}
+.testimonial_item_name h3 {
+	font-size: 14px;
+	line-height: 3.26px;
+}
+.testimonial_item_name h6 {
+	font-size: 10px;
+	line-height: 12.26px;
+	padding-top: 7px;
+}
+.testimonial_item_name img{
+	display: none;
+}
+.textimonial_items_back {
+	top: 16%;
+	left: 16%;
+	width: 311px;
+	height: 238px;
+}
+.testimonial_item_text p {
+	font-size: 12px;
+	line-height: 15.26px;
+	font-style: italic;
+	padding-top: 22px;
+}
+.textimonial_item_img {
+	left: 1%;
+	width: 90px;
+	height: 90px;
+}
+.textimonial_item_img_circle {
+	width: 75px;
+	height: 75px;
+}
+
+.testimonial_head h2 {
+	font-size: 27px;
+	line-height: 29.26px;
+}
+/* testimonial part end here  */
+/* adventure part start here  */
+.adventure{
+	padding: 60px 0;
+}
+.adventure_item h3::after {
+	width: 512px;
+	top: 50px;
+}
+.adventure_item h3 {
+	font-size: 18px;
+	line-height: 36.26px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.adventure_part h3 {
+	font-size: 32px;
+	line-height: 41.26px;
+}
+.adventure_item_text {
+	padding-left: 7px;
+}
+.adventure_item h3::after {
+	width: 342px;
+}
+/* adventure part end here  */
+ /* connect part end here  */
+ /* .connect{
+	padding: 60px 0;
+} */
+.form {
+	width: 470px;
+}
+.form_img {
+	display: none;
+}
+/* .connect_part h2 {
+	font-size: 28px;
+	line-height: 33.26px;
+	margin-top: 0;
+}
+.connect_part p {
+	font-size: 13px;
+	line-height: 18.26px;
+	padding-top: 32px;
+}
+.top_btn a {
+	margin-bottom: 20px;
+}
+.form {
+	width: 670px;
+	top: -20;
+	left: 50%;
+	padding: 20px 20px;
+	height: 628px;
+	transform: translate(-50%);
+}
+
+.form h3 {
+	font-size: 23px;
+	line-height: 28.26px;
+} */
+ /* highlisht part start here  */
+
+.highlisht_part h3 {
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 28.26px;
+}
+.highlisht_part p {
+	font-size: 14px;
+	line-height: 20.26px;
+	margin-top: 0px;
+	padding-left: 3px;
+}
+.highlight_video {
+	width: 100%;
+}
+/* highlisht part end here  */
+/* clients part start here  */
+.clients {
+	padding: 60px 0;
+}
+.clients_text h2 {
+	font-size: 40px;
+	line-height: 45.26px;
+}
+.clients_text p {
+	font-size: 14px;
+	line-height: 22.26px;
+}
+.client_items_part {
+	flex-direction: row;
+}
+.client_item {
+	margin: 10px 0;
+	width: 170px;
+}
+.footer_second h3 {
+	padding-bottom: 5px;
+	margin-top: 40px;
+}
+/* clients part end here  */
 	.registration_part h3::after {
 		width: 357px;
 	}

@@ -486,6 +486,21 @@ a{
 .star .color{
     color: #FFAE4F;
 }
+.testimonial_head h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 45.26px;
+    color: #000;
+}
+.testimonial_head p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.26px;
+    color: #6E6E6F;
+    padding-bottom: 10px;
+}
 .testimonial_item_text p{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -577,9 +592,10 @@ a{
    padding: 30px 0;
  }
  .adventure_image{
-   width: 350px;
+   /* width: 350px; */
    height: 337px;
    position: relative;
+   margin: 0px 5px;
  }
  .adventure_image img{
    width: 100%;
@@ -903,11 +919,11 @@ a{
    padding: 140px 0;
  }
  .clients_text{
-   width: 1000px;
+   /* width: 1000px; */
    text-align: center;
  }
  .clients_text h2{
-   width: 800px;
+   /* width: 800px; */
    font-family: "Poppins", sans-serif;
    font-weight: 600;
    font-size: 48px;
@@ -915,7 +931,7 @@ a{
    color: #1F1E1E;
  }
  .clients_text p{
-   width: 900px;
+   /* width: 900px; */
    font-family: "Poppins", sans-serif;
    font-weight: 500;
    font-size: 16px;

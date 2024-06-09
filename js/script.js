@@ -6,6 +6,52 @@ $('.textimonial_items_siders').slick({
     autoplaySpeed: 2000,
     arrows:false,
     dots:true,
+    responsive: [
+        {
+          breakpoint: 576,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1000,
+            arrows:false,
+            dots:false,
+          }
+        },
+        {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              autoplay: true,
+              autoplaySpeed: 1000,
+              arrows:false,
+              dots:true,
+            }
+          },
+        {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              autoplay: true,
+              autoplaySpeed: 1000,
+              arrows:false,
+              dots:true,
+            }
+          },
+        {
+            breakpoint: 1200,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              autoplay: true,
+              autoplaySpeed: 1000,
+              arrows:false,
+              dots:true,
+            }
+          },
+      ]
 });
 $('.adventure_sliders').slick({
     slidesToShow: 3,
@@ -14,6 +60,53 @@ $('.adventure_sliders').slick({
     autoplaySpeed: 1000,
     arrows:false,
     dots:false,
+    responsive: [
+        {
+          breakpoint: 576,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1000,
+            arrows:false,
+            dots:false,
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1000,
+            arrows:false,
+            dots:false,
+          }
+        },
+        {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1000,
+            arrows:false,
+            dots:false,
+          }
+        },
+        {
+          breakpoint: 1200,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1000,
+            arrows:false,
+            dots:false,
+          }
+        },
+        
+      ]
 });
 $('.instagram_images').slick({
     slidesToShow: 8,
