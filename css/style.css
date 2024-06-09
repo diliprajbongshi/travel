@@ -9,7 +9,7 @@ ul,ol{
 h1,h2,h3,h4,h5,h6,p{
     padding: 0;
     margin: 0;
-    line-height: 0,8;
+    line-height: 0.8;
 }
 a{
     list-style: none;
@@ -1717,8 +1717,147 @@ padding: 20px;
 .footer {
 	padding: 48px 0;
 }
-
-
-
 /* =========================== Registration us page start ================================== */
+/* =========================== Choose agency us page start ================================== */
+.choose_agency_head{
+  padding-bottom: 160px;
+}
+.choose_agency_head h3{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 57px;
+  color: #212529;
+}
+.choose_agency_head h3{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 57px;
+  color: #212529;
+  border-bottom: 1px solid #787A82;
+  padding-bottom: 20px;
+}
+.choose_text h2{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 67px;
+  color: #787A82;
+}
+.choose_text h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 29px;
+  line-height: 38px;
+  color: #342B27;
+  padding-top: 12px;
+  padding-left: 20px;
+  text-align: center;
+}
+.choose_text p{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #605F62;
+}
+.choose_text{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+.choose_text_part{
+  border-bottom: 1px solid #787A82;
+}
+/* =========================== Choose agency us page end ================================== */
+/* =========================== Contact  page start here ================================== */
+.contact_way{
+  padding: 100px 0;
+}
+.contact_way_part p{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: #434242;
+  padding-bottom: 30px;
+}
+.contact_detail{
+  padding: 30px;
+  border-radius: 10px;
+  -webkit-box-shadow: -1px 1px 12px 1px rgba(237,164,237,1);
+  -moz-box-shadow: -1px 1px 12px 1px rgba(237,164,237,1);
+  box-shadow: -1px 1px 12px 1px rgba(237,164,237,1);
+  height: 300px;
+}
+.contact_way_item{
+   background: #fff;
+   border-radius: #fff;
+}
+.contact_way_item_con{
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+.contact_way_item_con h3{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: #212529;
+  padding: 10px 0;
+}
+.contact_way_item p{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #605F62;
+  padding-bottom: 30px;
+}
+.contact_way_item_last p{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #605F62;
+  padding-bottom: 15px;
+}
+.contact_way_item_last h6{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #212529;
+}
+.contact_way_item_last{
+  display: flex;
+  justify-content: space-between;
+}
+.contact_email{
+  display: block;
+}
+.contact_email h6{
+  text-align: center;
+}
+.contact_form_text_part{
+  text-align: center;
+}
+.contact_form_text_part h3{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 28px;
+  color: #212529;
+  padding-top: 100px;
+}
+.contact_form_text_part p{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #434242;
+  padding-top: 25px;
+}
+/* =========================== Contact  page end here ================================== */
+
  

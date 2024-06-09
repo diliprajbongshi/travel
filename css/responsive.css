@@ -104,6 +104,7 @@
 .textimonial_items {
 	width: 293px;
 	height: 283px;
+	margin: 0 auto;
 }
 .testimonial_item_text {
 	padding-top: 24px;
@@ -148,6 +149,10 @@
 .testimonial_head h2 {
 	font-size: 27px;
 	line-height: 29.26px;
+}
+.testimonial_part_two{
+	margin-top: 0px;
+	padding: 40px 0;
 }
 /* testimonial part end here  */
 /* Adventurer part start here  */
@@ -286,6 +291,56 @@
 	padding: 4px 6px;
 }
 /* ======================  Blog page end here ================================== */
+/* ======================  Contact page start here ================================== */
+.contact_way {
+	padding: 33px 0;
+}
+.contact_way_item_last p {
+	font-size: 12px;
+}
+.contact_way_item_last h6 {
+	font-size: 10px;
+	line-height: 9px;
+}
+/* ======================  Contact page end here ================================== */
+/* ======================  Service page start here ================================== */
+.agency_part{
+	display: block;
+}
+.agency_img {
+	width: 100%;
+}
+.agency_text {
+	width: 100%;
+}
+.agency_text {
+	height: 620px;
+	padding: 100px 15px 71px 13px;
+}
+.agency_text h3 {
+	font-size: 25px;
+	line-height: 30px;
+}
+.choose_agency_head h3 {
+	font-size: 40px;
+	line-height: 45px;
+}
+.agency {
+	padding-bottom: 40px;
+}
+ .choose_text {
+	display: block;
+	text-align: center;
+	padding: 20px 0 0 0;
+}
+.choose_text_part {
+	padding-bottom: 10px;
+}
+.choose_agency{
+	padding:  60px 0;
+}
+
+/* ======================  Service page end here ================================== */
 /* ======================  Registration page start here ================================== */
 .registration_part h3 {
 	font-size: 32px;
@@ -299,9 +354,7 @@
 /* ======================  Registration page end here ================================== */
 }
 
-
 /* ======================  Home page end here ================================== */
-
 
 /*  small device  */
 @media (min-width:576px) and (max-width: 767.98px){
@@ -583,6 +636,45 @@
 	font-size: 12px;
 	padding: 4px 6px;
 }
+/* ======================  Service page end here ================================== */
+/* ======================  Service page start here ================================== */
+.agency_part{
+	display: block;
+}
+.agency_img {
+	width: 100%;
+}
+.agency_text {
+	width: 100%;
+}
+.agency_text {
+	height: 620px;
+	padding: 100px 15px 71px 13px;
+}
+.agency_text h3 {
+	font-size: 25px;
+	line-height: 30px;
+}
+.choose_agency_head h3 {
+	font-size: 40px;
+	line-height: 45px;
+}
+.agency {
+	padding-bottom: 40px;
+}
+ .choose_text {
+	display: block;
+	text-align: center;
+	padding: 20px 0 0 0;
+}
+.choose_text_part {
+	padding-bottom: 10px;
+}
+.choose_agency{
+	padding:  60px 0;
+}
+
+/* ======================  Service page end here ================================== */
 /* ======================  Blog page end here ================================== */
 .registration_part h2::after {
 	display: none;
