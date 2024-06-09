@@ -1,0 +1,325 @@
+/* Home page start here  */
+/* extra small device  */
+@media (min-width: 320px) and (max-width: 575.98px) {
+/* Navbar part start here  */
+.top_header_left{
+    display: block;
+    font-size: 11px;
+}
+.travel_info{
+    width: 164px;
+}
+.login {
+    font-size: 11px;
+    padding-left: 0;
+}
+.register {
+    font-size: 11px;
+    padding-left: 0;
+}
+.divider {
+	padding: 0 0;
+}
+.user_social{
+    display: none;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover::after {
+	 background: transparent; 
+	 width: 0; 
+}
+.jobs button{
+    padding: 0;
+}
+.top_btn a {
+	padding: 5px 5px;
+	font-size: 11px;
+}
+/* Navbar part end here  */
+/* Banner part start here  */
+.banner_overlay{
+    padding: 50px 0;
+}
+.banner_text h1 {
+	font-size: 35px;
+	line-height: 47.26px;
+}
+.banner_text p {
+	width: 284px;
+	font-size: 11px;
+	line-height: 20.8px;
+}
+.round_btn {
+	width: 44px;
+	height: 44px;
+	margin-top: 16px;
+}
+.round_btn a {
+	margin-top: 12px;
+}
+
+/* Banner part end here  */
+/* Service part end here  */
+.servicess {
+	padding: 59px 0;
+}
+.service_text_part h2 {
+	font-weight: 500;
+	font-size: 27px;
+	line-height: 32.26px;
+}
+.service_text_part p {
+	font-size: 13px;
+	line-height: 25.26px;
+}
+.service_item p {
+	font-size: 12px;
+}
+.explore_item {
+	width: 100%;
+	padding: 10px;
+}
+.explore_text h2 {
+	font-size: 32px;
+	line-height: 57.26px;
+}
+.explore_text p {
+	font-size: 12px;
+	line-height: 22.26px;
+	width: 259px;
+}
+/* .explore_part {
+	position: static;
+} */
+/* .explore_image {
+	position: static;
+	top: 53px;
+	right: 0;
+    display: block;
+} */
+.explore_image img {
+	width: 100%;
+}
+.explore {
+	padding: 40px 0 135px 0;
+}
+/* .explore_image {
+	top: 835px;
+} */
+/* Service part end here  */
+/* Service part end here  */
+/* ======================  Blog page start here ================================== */
+.blog_viktor{
+	display: none;
+}
+.blog_viktor_two{
+	display: none;
+}
+.category {
+	padding: 44px 0;
+}
+.blog_category_text h4 {
+	font-size: 12px;
+	line-height: 13px;
+}
+.arrival {
+	font-size: 12px;
+	padding-top: 2px;
+}
+.blog_category_text h4::after {
+	width: 144px;
+	height: 1px;
+	top: 20px;
+}
+.arrival::after {
+	top: 38px;
+}
+.blog_category_text h5 {
+	font-size: 12px;
+	line-height: 15px;
+}
+.blog_link_img a {
+	font-size: 12px;
+	padding: 4px 6px;
+}
+/* ======================  Blog page end here ================================== */
+/* ======================  Registration page start here ================================== */
+.registration_part h3 {
+	font-size: 32px;
+}
+.registration_part h3::after {
+	display: none;
+}
+.registration_part h2::after {
+	display: none;
+}
+/* ======================  Registration page end here ================================== */
+}
+
+
+/* ======================  Home page end here ================================== */
+
+
+/*  small device  */
+@media (max-width: 767.98px){
+/* Navbar part start here  */
+.top_header_left{
+    display: block;
+    font-size: 11px;
+}
+.travel_info {
+	padding-right: 0px;
+}
+.travel_info{
+    width: 164px;
+}
+.login {
+    font-size: 11px;
+    padding-left: 0;
+}
+.register {
+    font-size: 11px;
+    padding-left: 0;
+}
+.divider {
+	padding: 0 0;
+}
+.user_social{
+    display: none;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover::after {
+	 background: transparent; 
+	 width: 0; 
+}
+.jobs button{
+    padding: 0;
+}
+.top_btn a {
+	padding: 5px 5px;
+	font-size: 11px;
+}
+/* Navbar part end here  */
+/* Registration part end here  */
+.registration_part h3::after {
+	display: none;
+}
+/* Registration part end here  */
+
+/* ======================  Blog page start here ================================== */
+.blog_viktor{
+	display: none;
+}
+.blog_viktor_two{
+	display: none;
+}
+.category {
+	padding: 44px 0;
+}
+.blog_category_text h4 {
+	font-size: 12px;
+	line-height: 13px;
+}
+.arrival {
+	font-size: 12px;
+	padding-top: 2px;
+}
+.blog_category_text h4::after {
+	width: 144px;
+	height: 1px;
+	top: 20px;
+}
+.arrival::after {
+	top: 38px;
+}
+.blog_category_text h5 {
+	font-size: 12px;
+	line-height: 15px;
+}
+.blog_link_img a {
+	font-size: 12px;
+	padding: 4px 6px;
+}
+/* ======================  Blog page end here ================================== */
+.registration_part h2::after {
+	display: none;
+}
+}
+
+
+/* --------------------  Medium devices ---------------------- */
+@media (max-width: 991.98px){
+	.jobs button{
+		padding: 0;
+	}
+	.top_btn a {
+		padding: 5px 5px;
+		font-size: 11px;
+	}
+	/* // Banner part start here  */
+	.blog_viktor{
+		display: none;
+	}
+	.blog_viktor_two{
+		display: none;
+	}
+	.blog_viktor {
+		left: -343px;
+	}
+	.blog_viktor_two {
+		right: -341px;
+	}
+	/* // Banner part end here  */
+	/* // Blog part start here  */
+	.category {
+		padding: 61px 0;
+	}
+	/* // Blog part end here  */
+	/* // Registration part end here  */
+	.registration_part h3::after {
+		width: 310px;
+	}
+	/* // Registration part end here  */
+	.registration_part h2::after {
+		display: none;
+	}
+}
+/* --------------------  Medium devices ---------------------- */
+/* --------------------  Large devices  ---------------------- */
+@media (max-width: 1199.98px) {
+   /* navbar start here  */
+	.top_btn a {
+		padding: 9px 12px;
+		font-size: 10px;
+	}
+	.jobs button{
+		font-size: 13px;
+	}
+	.navbar-expand-lg .navbar-nav .nav-link {
+		font-size: 13px;
+	}
+   /* navbar end here  */
+   .blog_category_text h4 {
+	font-size: 13px;
+	}
+	.arrival {
+		font-size: 13px;
+	}
+	.blog_category_text a {
+		padding: 3px 10px;
+		font-size: 13px;
+	}
+	.blog_category_text h4::after {
+		width: 155px;
+	}
+	.arrival::after {
+		width: 91px;
+	}
+	.blog_category_text h5 {
+		font-size: 13px;
+	}
+	/* Registration part start here  */
+	.registration_part h3::after {
+		width: 357px;
+	}
+	/* Registration part end here  */
+}
+/* --------------------  Large devices ---------------------- */
