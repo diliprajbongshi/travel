@@ -453,6 +453,9 @@
 	margin-top: 500px;
 	padding: 60px 0;
 }
+.margin_top_out{
+	margin-top: 0;
+}
 .textimonial_items {
 	width: 501px;
 	height: 283px;
@@ -883,6 +886,7 @@
 }
 .client_item {
 	margin: 10px 0;
+	width: 130px;
 }
 .footer_second h3 {
 	padding-bottom: 5px;
@@ -924,6 +928,47 @@
 	.registration_part h2::after {
 		display: none;
 	}
+	/* ======================  agency page start here ================================== */
+.agency_part{
+	display: block;
+}
+.agency_img {
+	width: 100%;
+}
+.agency_text {
+	width: 100%;
+}
+.margin_top_out{
+	margin-top: 0;
+}
+.agency_text {
+	height: 620px;
+	padding: 100px 15px 71px 13px;
+}
+.agency_text h3 {
+	font-size: 25px;
+	line-height: 30px;
+}
+.choose_agency_head h3 {
+	font-size: 40px;
+	line-height: 45px;
+}
+.agency {
+	padding-bottom: 40px;
+}
+ .choose_text {
+	display: block;
+	text-align: center;
+	padding: 20px 0 0 0;
+}
+.choose_text_part {
+	padding-bottom: 10px;
+}
+.choose_agency{
+	padding:  60px 0;
+}
+
+/* ======================  agency page end here ================================== */
 }
 /* --------------------  Medium devices ---------------------- */
 /* --------------------  Large devices  ---------------------- */
@@ -1168,5 +1213,47 @@
 		width: 357px;
 	}
 	/* Registration part end here  */
+	/* agency part start here  */
+	.agency_img {
+		height: 495px;
+	}
+	.agency_img img{
+		width: 100%;
+		height: 100%;
+        object-fit: cover;
+	}
+	.agency_text {
+		height: 495px;
+		padding: 28px 53px 177px 51px;
+	}
+	.choose_text h2 {
+		font-size: 37px;
+	}
+	.choose_text h4 {
+		font-size: 22px;
+	}
+	.choose_text p {
+		font-size: 13px;
+	}
+	.margin_top_out{
+		margin-top: 0;
+	}
+	/* agency part end here  */
 }
 /* --------------------  Large devices ---------------------- */
+/* --------------------  Extra large devices ---------------------- */
+@media (min-width:1200px) and (max-width: 1399.98px){
+	.agency_img{
+		height: 584px;
+	}
+	.agency_img img{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+	.agency_text {
+		height: 584px;
+		padding: 32px 68px 35px 46px;
+	}
+}
+/* --------------------  Extra large devices ---------------------- */
