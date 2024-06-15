@@ -1859,5 +1859,109 @@ padding: 20px;
   padding-top: 25px;
 }
 /* =========================== Contact  page end here ================================== */
+/* ======================= choose_an_agency  page start here =========================== */
+.choose_an_agency{
+  padding: 100px 0;
+}
+.one{
+  background: red;
+  padding: 20px;
+}
+.two{
+  background: red;
+  padding: 20px;
+}
+.choose_an_agency_bio_part{
+  margin-top: 30px;
+  padding: 10px 20px; 
+  border: 1px solid #E7E7E8;
+  background: #ddd;
+}
+.choose_agency_search{
+  display: flex;
+  justify-content: end;
+}
+.choose_agency_search p{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #434242;
+  padding-top: 3px;
+  padding-right: 5px;
+}
+.choose_an_agency_bio_part p{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #434242;
+  padding-top: 3px;
+  padding-right: 5px;
+}
+
+.choose_agency_search select{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #495560;
+  border: 1px solid #E7E7E8;
+  padding: 5px 10px;
+  width: 300px;
+}
+.choose_agency_search select:focus{
+  border: 1px solid #E7E7E8;
+}
+.choose_agency_search select:focus-visible{
+  border: 1px solid #E7E7E8;
+}
+.choose_an_agency_bio_part_text img{
+   width: 120px;
+   height: 120px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   align-self: center;
+   margin: 0 auto;
+   padding-top: 10px;
+}
+.choose_an_agency_bio_part_text h4{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000;
+  padding-top: 3px;
+  padding-right: 5px;
+  border-bottom: 1px solid #b6b5b5;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.choose_an_agency_bio_part_text p{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 22px;
+  color: #000;
+  padding-top: 40px; 
+  padding-right: 5px; 
+  padding-bottom: 10px; 
+   text-align: center; 
+}
+.choose_an_agency_bio_part_text h5{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #636161;
+  padding-top: 40px; 
+  padding-right: 5px; 
+  padding-bottom: 10px; 
+   text-align: center; 
+   
+}
+
+/* ======================= choose_an_agency  page end here ========================== */
 
  

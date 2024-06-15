@@ -351,7 +351,75 @@
 .registration_part h2::after {
 	display: none;
 }
+/* ======================  About page start here ================================== */
+.story {
+	padding-top: 50px;
+}
+.travel_package {
+	width: 277px;
+	right: 50%;
+	transform: translate(50%);
+}
+.travel_package_text h3 {
+	font-size: 19px;
+	padding-left: 10px;
+}
+.travel_package_text h2 {
+	font-size: 31px;
+	padding-left: 10px;
+}
+.travel_package_two {
+	width: 277px;
+	left: 50%;
+	transform: translate(-50%);
+}
+.travel_package_two h3 {
+	font-size: 19px;
+	padding-left: 10px;
+}
+.travel_package_two h2 {
+	font-size: 31px;
+	padding-left: 10px;
+}
+.story_text_part h3 {
+	font-size: 25px;
+	line-height: 33px;
+}
+.story_text_part p {
+	font-size: 15px;
+	line-height: 22px;
+}
+.story_text_part h4 {
+	font-size: 28px;
+	line-height: 30px;
+}
+.story_text_part h5 {
+	font-size: 15px;
+	line-height: 32px;
+	padding-top: 1px;
+}
+.story_text_part img {
+	margin-top: 8px;
+}
+.margin_top{
+	margin-top: 20px;
+}
+.instragram h3 {
+	font-size: 27px;
+}
+/* ======================  About page end here ================================== */
 /* ======================  Registration page end here ================================== */
+/* =================  choose an agency page start here =========================== */
+.choose_an_agency_bio_part_text h4 {
+	padding-top: 32px;
+}
+.choose_an_agency_bio_part_text h5 {
+	padding-top: 9px;
+}
+.choose_an_agency_bio_part_text p {
+	padding-top: 12px;
+}
+/* =================  choose an agency page end here =========================== */
 }
 
 /* ======================  Home page end here ================================== */
@@ -521,6 +589,9 @@
 	font-size: 32px;
 	line-height: 41.26px;
 }
+.adventure_item_margin{
+	margin: 0 5px;
+}
 /* adventure part end here  */
 /* connect part end here  */
 .connect{
@@ -678,10 +749,86 @@
 }
 
 /* ======================  Service page end here ================================== */
+/* ======================  About page start here ================================== */
+.story {
+	padding-top: 50px;
+}
+/* ======================  About page end here ================================== */
 /* ======================  Blog page end here ================================== */
 .registration_part h2::after {
 	display: none;
 }
+/* ======================  About page start here ================================== */
+.story {
+	padding-top: 50px;
+}
+.travel_package {
+	width: 277px;
+	right: 50%;
+	transform: translate(50%);
+}
+.travel_package_text h3 {
+	font-size: 19px;
+	padding-left: 10px;
+}
+.travel_package_text h2 {
+	font-size: 31px;
+	padding-left: 10px;
+}
+.travel_package_two {
+	width: 277px;
+	left: 50%;
+	transform: translate(-50%);
+}
+.travel_package_two h3 {
+	font-size: 19px;
+	padding-left: 10px;
+}
+.travel_package_two h2 {
+	font-size: 31px;
+	padding-left: 10px;
+}
+.story_text_part h3 {
+	font-size: 25px;
+	line-height: 33px;
+}
+.story_text_part p {
+	font-size: 15px;
+	line-height: 22px;
+}
+.story_text_part h4 {
+	font-size: 28px;
+	line-height: 30px;
+}
+.story_text_part h5 {
+	font-size: 15px;
+	line-height: 32px;
+	padding-top: 1px;
+}
+.story_text_part img {
+	margin-top: 8px;
+}
+.margin_top{
+	margin-top: 20px;
+}
+.instragram h3 {
+	font-size: 27px;
+}
+.margin_top{
+	margin-top: 0;
+}
+/* ======================  About page end here ================================== */
+/* =================  choose an agency page start here =========================== */
+.choose_an_agency_bio_part_text h4 {
+	padding-top: 32px;
+}
+.choose_an_agency_bio_part_text h5 {
+	padding-top: 9px;
+}
+.choose_an_agency_bio_part_text p {
+	padding-top: 12px;
+}
+/* =================  choose an agency page end here =========================== */
 }
 
 
@@ -967,8 +1114,78 @@
 .choose_agency{
 	padding:  60px 0;
 }
-
+/* ======================  About page start here ================================== */
+.story {
+	padding-top: 50px;
+}
+.travel_package {
+	width: 277px;
+	right: 50%;
+	transform: translate(50%);
+}
+.travel_package_text h3 {
+	font-size: 19px;
+	padding-left: 10px;
+}
+.travel_package_text h2 {
+	font-size: 31px;
+	padding-left: 10px;
+}
+.travel_package_two {
+	width: 277px;
+	left: 50%;
+	transform: translate(-50%);
+}
+.travel_package_two h3 {
+	font-size: 19px;
+	padding-left: 10px;
+}
+.travel_package_two h2 {
+	font-size: 31px;
+	padding-left: 10px;
+}
+.story_text_part h3 {
+	font-size: 25px;
+	line-height: 33px;
+}
+.story_text_part p {
+	font-size: 15px;
+	line-height: 22px;
+}
+.story_text_part h4 {
+	font-size: 28px;
+	line-height: 30px;
+}
+.story_text_part h5 {
+	font-size: 15px;
+	line-height: 32px;
+	padding-top: 1px;
+}
+.story_text_part img {
+	margin-top: 8px;
+}
+.margin_top{
+	margin-top: 20px;
+}
+.instragram h3 {
+	font-size: 27px;
+}
+.margin_top{
+	margin-top: 0;
+}
+/* ======================  About page end here ================================== */
 /* ======================  agency page end here ================================== */
+/* =================  choose an agency page start here =========================== */
+.choose_an_agency_bio_part_text h4 {
+	padding-top: 32px;
+}
+.choose_an_agency_bio_part_text h5 {
+	padding-top: 9px;
+}
+.choose_an_agency_bio_part_text p {
+	padding-top: 12px;
+}
+/* =================  choose an agency page end here =========================== */
 }
 /* --------------------  Medium devices ---------------------- */
 /* --------------------  Large devices  ---------------------- */
@@ -1239,6 +1456,66 @@
 		margin-top: 0;
 	}
 	/* agency part end here  */
+	/* ======================  About page start here ================================== */
+.story {
+	padding-top: 50px;
+}
+.travel_package {
+	width: 277px;
+	right: 50%;
+	transform: translate(50%);
+}
+.travel_package_text h3 {
+	font-size: 19px;
+	padding-left: 10px;
+}
+.travel_package_text h2 {
+	font-size: 31px;
+	padding-left: 10px;
+}
+.travel_package_two {
+	width: 277px;
+	left: 50%;
+	transform: translate(-50%);
+}
+.travel_package_two h3 {
+	font-size: 19px;
+	padding-left: 10px;
+}
+.travel_package_two h2 {
+	font-size: 31px;
+	padding-left: 10px;
+}
+.story_text_part h3 {
+	font-size: 25px;
+	line-height: 33px;
+}
+.story_text_part p {
+	font-size: 15px;
+	line-height: 22px;
+}
+.story_text_part h4 {
+	font-size: 28px;
+	line-height: 30px;
+}
+.story_text_part h5 {
+	font-size: 15px;
+	line-height: 32px;
+	padding-top: 1px;
+}
+.story_text_part img {
+	margin-top: 8px;
+}
+.margin_top{
+	margin-top: 20px;
+}
+.instragram h3 {
+	font-size: 27px;
+}
+.margin_top{
+	margin-top: 0;
+}
+/* ======================  About page end here ================================== */
 }
 /* --------------------  Large devices ---------------------- */
 /* --------------------  Extra large devices ---------------------- */
@@ -1254,6 +1531,9 @@
 	.agency_text {
 		height: 584px;
 		padding: 32px 68px 35px 46px;
+	}
+	.travel_package_two {
+		left: -21px;
 	}
 }
 /* --------------------  Extra large devices ---------------------- */

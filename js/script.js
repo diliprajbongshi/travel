@@ -113,6 +113,61 @@ $('.instagram_images').slick({
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 1000,
+    arrows:false,
+    dots:false,
+    responsive: [
+        {
+          breakpoint: 576,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1000,
+            arrows:false,
+            dots:false,
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1000,
+            arrows:false,
+            dots:false,
+          }
+        },
+        {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1000,
+            arrows:false,
+            dots:false,
+          }
+        },
+        {
+          breakpoint: 1200,
+          settings: {
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1000,
+            arrows:false,
+            dots:false,
+          }
+        },
+        
+      ]
+});
+$('.instagram_images').slick({
+    slidesToShow: 8,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1000,
     arrows:true,
     dots:false,
     prevArrow :'<button type="button" class="right"><i class="fa-solid fa-angle-right"></i></button> ',
